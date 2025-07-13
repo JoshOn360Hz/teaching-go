@@ -33,15 +33,13 @@ func main() {
 	fmt.Print("What's your name? ")
 	fmt.Scanln(&name) // read user input and store it in the variable 'name'
 
-	style := lipgloss.NewStyle().
-		Foreground(lipgloss.Color("205")).
-		Background(lipgloss.Color("0")).
-		Bold(true).
-		Italic(true)
+	 style := lipgloss.NewStyle().
+	// Define your custom style below here // if you need help check the last activity //
+
+	// Define your custom style above here // 
 
 	// Print your styled name below here // if you need help check the last activity //
 
 	// print the styled name above here //
-	fmt.Println(style.Render(name))
 
 }
