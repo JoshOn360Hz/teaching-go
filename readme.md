@@ -22,7 +22,7 @@ cd teaching-go
  ```go 
  go run . 
  ```
- or if your in the root folder for example:
+ - or if your in the root folder for example:
  ```bash
  cd Part1-Plain-Golang/activity1-hello-world
  ```
