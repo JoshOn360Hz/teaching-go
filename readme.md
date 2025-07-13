@@ -6,7 +6,7 @@
 Make sure you have:
 
 - [Go installed](https://go.dev/dl/)
-- Git installed (or download as ZIP)
+- Git installed (or download as source code as a ZIP)
 
 ### Clone the project
 
