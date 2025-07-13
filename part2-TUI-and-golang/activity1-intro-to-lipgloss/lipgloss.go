@@ -28,7 +28,7 @@ func main() {
 
 	// Create a style and apply it to the word
 
-	// your code goes here 👇
+	// your code goes here //
 
-	// your code ends here 👆
+	// your code ends here //
 }
