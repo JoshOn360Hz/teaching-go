@@ -1,0 +1,40 @@
+[
+  //  GOOD: Simple, valid JSON object
+
+  // here you do not need to do anything, these are examples of valid json objects ( example 1 and 2 ) 
+  // and then some common errors in json after
+
+  // example 1 - a well-formed JSON object
+  {
+    "name": "user",
+    "age": 30
+  },
+  {
+    "name": "user",
+    "age": 21
+  },
+
+  //  Example 2 -  Another well-formed object
+  {
+    "name": "user",
+    "age": 19
+  },
+
+  // BAD: Trailing comma (after last property)
+  {
+    "name": "user",
+    "age": 24, // ← error: no comma allowed after the last field
+  },
+
+  //  BAD: Unquoted key
+  {
+    name: "user",      // ← error: keys must be in double quotes
+    "age": 25
+  },
+
+  //  BAD: String value missing quotes
+  {
+    "name": user,      // ← error: string values must be in double quotes
+    "age": 28
+  }
+]
